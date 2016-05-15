@@ -64,7 +64,7 @@ class ViewController: UIViewController , UIWebViewDelegate {
     //Modal
     internal func ClickMyButton(sender: UIButton) {
         let mySecondViewController: UIViewController = secondViewController() //遷移するview(secondViewContotoller)を指定
-        mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl //アニメーションを指定
+        mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.CoverVertical //アニメーションを指定
         self.presentViewController(mySecondViewController, animated: true, completion: nil) //viewの移動
     }
 
